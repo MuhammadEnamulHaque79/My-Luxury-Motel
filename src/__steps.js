@@ -21,13 +21,35 @@
 
  */
 
-// Activites in hole project;
+// react-firebase-hooks setup;
+/*
+ 1.yarn add react-firebase-hooks;
+ 
+ */
+
+// Activites in hole project(indivisual component);
 
 /*
 1.Create a pages folder into it create Home folder and into it create Home component(like Home.js & Home.css);
 2.Create a Shared folder into it create Header folder and into it create Header component(like Header.js & Header.css);
-3.
 
+// Header.js component activites;
+*import Navbar from react-bootstrap and desiareable changed like about,login and as={Link} to='/about' and as={Link} to='/login';
+*
+*/
+
+// Login.js component activites;
+/*
+*import { Button, Form } from 'react-bootstrap' and desiareable changed and bottom of the <Form> write
+<p>New to Luxury Motel ? <Link to='/register'> Please Register</Link></p>
+*Must be attatch with App.js;
+ */
+
+// Register.js component activites;
+/*
+ * import { Button, Form } from 'react-bootstrap' and desiareable changed and bottom of the <Form> write
+<p>Already have an account ? <Link to='/login'> Please Login</Link></p>
+ *Must be attatch with App.js;
  */
 
 // Framework using steps(like react-bootstrap);

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Login.css';
 
 
@@ -27,6 +28,7 @@ const Login = () => {
                     Submit
                 </Button>
             </Form>
+            <p>New to Luxury Motel ? <Link to='/register'> Please Register</Link></p>
         </div>
     );
 };
